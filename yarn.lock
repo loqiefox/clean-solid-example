@@ -173,13 +173,6 @@
     "@fastify/forwarded" "^3.0.0"
     ipaddr.js "^2.1.0"
 
-"@fastify/type-provider-zod@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/type-provider-zod/-/type-provider-zod-1.0.0.tgz#59e5daf466b39cd37e4aeaac2684719ed152d215"
-  integrity sha512-X4QIFR0ZMiULemfXItp/FIMSfD0V8qeZ9HkUGyL7HEysuHoMsHyM69OIFhmIICSaZ+l1/V0D3FLNmaKwxQtsMw==
-  dependencies:
-    "@fastify/error" "^4.2.0"
-
 "@pinojs/redact@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@pinojs/redact/-/redact-0.4.0.tgz#c3de060dd12640dcc838516aa2a6803cc7b2e9d6"
@@ -407,6 +400,13 @@ fast-uri@^4.0.0:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-4.1.4.tgz#2076a9d7bce86a86aa31ac40650b935fd5b1cd60"
   integrity sha512-dODXrIxlS9JSdgAnhIUKOosKV1oMtU2VtVw87QRaHzyl5jxO290Ii5tEZfCfzfWNHi3jKWwBSdQj0qIyshdZdQ==
+
+fastify-type-provider-zod@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/fastify-type-provider-zod/-/fastify-type-provider-zod-7.0.0.tgz#5c55ff407790b6665e368155a918bfe771b5aeee"
+  integrity sha512-yUEKMyy+kml+4fzUU9GxVtYVKmPKNFo8OVd2N/RH2I/7JZiKvOqF1BUj3f/JJU3DDQDM7pMv2bf/Y8COPaxUWg==
+  dependencies:
+    "@fastify/error" "^4.2.0"
 
 fastify@^5.12.3:
   version "5.12.3"
